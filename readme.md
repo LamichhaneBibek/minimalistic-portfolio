@@ -56,23 +56,23 @@ To use this template, follow these steps:
 ## Customization
 # Header
 
-Edit the <header> section in index.html to include your name and a brief bio.
+Edit the ```<header>``` section in index.html to include your name and a brief bio.
 
 # Body
 
-Customize the main content of your portfolio in the <section id="about"> and <section id="portfolio"> sections.
+Customize the main content of your portfolio in the ```<section id="about">``` and ```<section id="portfolio">``` sections.
 
 # Social Media Links
 
-Replace the placeholder social media links in the <ul class="social-icons"> section of index.html with your own.
+Replace the placeholder social media links in the ```<ul class="social-icons">``` section of index.html with your own.
 
 # Contacts
 
-Update the contact information in the <section id="contact"> section of index.html.
+Update the contact information in the ```<section id="contact">``` section of index.html.
 
 # Resume
 
-Replace the placeholder resume file (assets/resume/your_resume.pdf) with your own resume.
+Replace the placeholder resume file ```(assets/resume.pdf)``` with your own resume.
 
 ## Dependencies
 
