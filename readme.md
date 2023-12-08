@@ -2,6 +2,16 @@
 
 Welcome to the Minimalistic Portfolio Website template! This simple yet elegant website is designed to showcase your personal and professional information in a clean and organized manner. The template is built using HTML, CSS, and JavaScript to create a responsive and visually appealing portfolio.
 
+Here's a screenshot of the application:
+## Desktop View
+
+![Application Screenshot](assets/web.png)
+
+## Mobile View
+
+![Application Screenshot](assets/mobile.png)
+
+
 ## Table of Contents
 
 1. [Getting Started](#getting-started)
