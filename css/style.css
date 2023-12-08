@@ -1,0 +1,205 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    scroll-behavior: smooth;
+    font-family: 'Poppins', sans-serif;
+}
+
+:root {
+    --bg-color: #0c151d;
+    --text-color: #fff;
+    --main-color: #a3abb2;
+    --second-color: #171f26;
+
+    --h1-font: 42px;
+}
+
+body {
+    background-color: var(--bg-color);
+    color: var(--text-color);
+}
+
+
+
+.logo i {
+    font-size: 26px;
+    color: var(--other-color);
+    height: 60px;
+    width: 60px;
+    background: var(--second-color);
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    transition: all ease 0.55s;
+}
+
+.logo i:hover {
+    color: var(--text-color);
+    transform: scale(1.1);
+}
+
+section {
+    padding: 60px 35%;
+
+}
+
+.all {
+    position: relative;
+    width: 100%;
+    height: auto;
+}
+
+.box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+}
+
+.main-img img {
+    width: 90%;
+    height: auto;
+    border-radius: 10px;
+    transition: all ease 0.55s;
+}
+
+.main-text h2 {
+    font-size: 30px;
+    font-weight: 600;
+    margin: 10px 0;
+    white-space: nowrap;
+    color: var(--other-color);
+}
+
+.main-text h4 {
+    font-size: 22px;
+    font-weight: 500;
+    margin: 10px 0;
+    white-space: nowrap;
+    color: var(--other-color);
+}
+
+.social i {
+    display: inline-block;
+    font-size: 25px;
+    color: var(--other-color);
+    margin-right: 15px;
+    transition: all ease 0.55s;
+}
+
+.social i:hover {
+    color: var(--main-color);
+    transform: scale(1.08) translateY(-4px);
+}
+
+
+.button {
+    margin-top: 2.8rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+}
+
+.btn1 {
+    display: inline-block;
+    padding: 16px 38px;
+    background: var(--main-color);
+    color: var(--bg-color);
+    font-size: 17px;
+    font-weight: 500;
+    border-radius: 10px;
+    transition: all ease 0.55s;
+}
+
+.btn1:hover {
+    background: var(--other-color);
+    color: var(--text-color);
+    transform: scale(1.08) translateY(-4px);
+}
+
+.btn2 {
+    display: inline-block;
+    padding: 16px 38px;
+    background: var(--second-color);
+    color: var(--text-color);
+    font-size: 17px;
+    font-weight: 500;
+    border-radius: 10px;
+    transition: all ease 0.55s;
+}
+
+.btn2:hover {
+    background: var(--main-color);
+    color: var(--bg-color);
+    transform: scale(1.08) translateY(-4px);
+}
+
+.bottom-text p {
+    text-align: center;
+    font-size: 16px;
+    color: var(--other-color);
+    margin-top: 5rem;
+    font-weight: 400;
+}
+
+@media (max-width: 1580px) {
+    section {
+        padding: 50px 30%;
+    }
+}
+
+@media (max-width: 1420px) {
+    section {
+        padding: 50px 28%;
+    }
+}
+
+@media (max-width: 1300px) {
+    section {
+        padding: 50px 24%;
+    }
+}
+
+@media (max-width: 1120px) {
+    .box {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .main-img img {
+        margin-bottom: 20px;
+    }
+
+    .button {
+        gap: 2rem;
+    }
+
+    .btn1 {
+        padding: 12px 24px;
+    }
+
+    .btn2 {
+        padding: 12px 24px;
+    }
+}
+
+@media (max-width: 750px) {
+    section {
+        padding: 50px 14%;
+    }
+}
+
+@media (max-width: 600px) {
+    section {
+        padding: 50px 7%;
+    }
+}
