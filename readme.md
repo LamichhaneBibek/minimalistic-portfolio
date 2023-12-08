@@ -9,7 +9,7 @@ Here's a screenshot of the application:
 
 ## Mobile View
 
-![Application Screenshot](assets/mobile.png)
+![Application Screenshot](assets/mobile.jpg)
 
 
 ## Table of Contents
