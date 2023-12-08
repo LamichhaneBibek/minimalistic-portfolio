@@ -33,7 +33,7 @@ To use this template, follow these steps:
 ## Structure
 
 The project structure is as follows:
-```
+
 minimalistic-portfolio/
 │
 ├── index.html
@@ -46,7 +46,7 @@ minimalistic-portfolio/
 │   ├── profile.png
 │   └── resume.pdf
 └── favicon_io/
-    └── apple-touch-icon.png ```
+    └── apple-touch-icon.png 
 
   -  index.html: The main HTML file that defines the structure of the portfolio.
   -  style.css: The CSS file containing the styles for the portfolio.
