@@ -32,21 +32,21 @@ To use this template, follow these steps:
 
 ## Structure
 
-The project structure is as follows:
+    The project structure is as follows:
 
-minimalistic-portfolio/
-│
-├── index.html
-├── readme.md
-├── css
-│   └── style.css
-├── js
-│   └── script.js
-├── assets/
-│   ├── profile.png
-│   └── resume.pdf
-└── favicon_io/
-    └── apple-touch-icon.png 
+    minimalistic-portfolio/
+    │
+    ├── index.html
+    ├── readme.md
+    ├── css
+    │   └── style.css
+    ├── js
+    │   └── script.js
+    ├── assets/
+    │   ├── profile.png
+    │   └── resume.pdf
+    └── favicon_io/
+        └── apple-touch-icon.png 
 
   -  index.html: The main HTML file that defines the structure of the portfolio.
   -  style.css: The CSS file containing the styles for the portfolio.
@@ -56,23 +56,23 @@ minimalistic-portfolio/
 ## Customization
 # Header
 
-    Edit the <header> section in index.html to include your name and a brief bio.
+Edit the <header> section in index.html to include your name and a brief bio.
 
 # Body
 
-    Customize the main content of your portfolio in the <section id="about"> and <section id="portfolio"> sections.
+Customize the main content of your portfolio in the <section id="about"> and <section id="portfolio"> sections.
 
 # Social Media Links
 
-    Replace the placeholder social media links in the <ul class="social-icons"> section of index.html with your own.
+Replace the placeholder social media links in the <ul class="social-icons"> section of index.html with your own.
 
 # Contacts
 
-    Update the contact information in the <section id="contact"> section of index.html.
+Update the contact information in the <section id="contact"> section of index.html.
 
 # Resume
 
-    Replace the placeholder resume file (assets/resume/your_resume.pdf) with your own resume.
+Replace the placeholder resume file (assets/resume/your_resume.pdf) with your own resume.
 
 ## Dependencies
 
